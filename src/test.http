@@ -1,0 +1,7 @@
+@baseurl = 'https://ed2e078a5ab0:7048/BC'
+@username = 'Admin'
+@password = 'Feze1205'
+
+# get {{baseurl}} /ODataV4/Company('CRONUS')/ItemAttributes?$filter=ItemNo eq '1896-S'
+get https://ed2e078a5ab0:7048/BC/ODataV4/Company('CRONUS')/ItemAttributes?$filter=ItemNo%20eq%20%271896-S%27
+Authorization: Basic Admin:Feze1205
