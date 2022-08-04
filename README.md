@@ -24,4 +24,3 @@ Add code wherever appropriate to populate it thru to item ledger entry.
 Expose a web service so that the above attributes can be retrieved as ODATA by applying filters on Item No & Variant code.
 
 Write Automated tests for the solution. 
-
